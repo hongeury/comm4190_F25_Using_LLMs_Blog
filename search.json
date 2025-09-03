@@ -11,7 +11,7 @@
     "href": "posts/002_testing2/002_title.html",
     "title": "chat.asc.upenn.edu version comparison",
     "section": "",
-    "text": "How do chat.asc.upenn.edu 3.5-haiku vs. gpt4o differ?\n1st, 2nd, 3rd tiral with the same prompt of: what is good thing about upenn annenberg phd"
+    "text": "How do chat.asc.upenn.edu 3.5-haiku vs. gpt4o differ?\n1st, 2nd, 3rd tiral with the same prompt of: what is good thing about upenn annenberg phd\n\n\n&lt;p style=\"margin:0; font-weight:bold;\"&gt;1st trial&lt;/p&gt;\n&lt;img src=\"gpt1.png\" width=\"100%\"/&gt;\n\n\n&lt;p style=\"margin:0; font-weight:bold;\"&gt;2nd trial&lt;/p&gt;\n&lt;img src=\"gpt2.png\" width=\"100%\"/&gt;\n\n\n&lt;p style=\"margin:0; font-weight:bold;\"&gt;3rd trial&lt;/p&gt;\n&lt;img src=\"gpt3.png\" width=\"100%\"/&gt;"
   },
   {
     "objectID": "posts/000_test_post/index.html",
