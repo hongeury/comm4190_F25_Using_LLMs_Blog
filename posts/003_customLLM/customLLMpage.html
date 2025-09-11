@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Eury">
+<meta name="dcterms.date" content="2025-09-10">
+<meta name="description" content="playing with how customGPT enhance my grammar in different settings">
 
-<title>Eury’s Explorations with LLMs</title>
+<title>correct grammar customGPT – Eury’s Explorations with LLMs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-50ba5294b6c7ee7d07312c2a1d772b17.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-50ba5294b6c7ee7d07312c2a1d772b17.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,77 +70,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Eury’s Explorations with LLMs</span>
     </a>
   </div>
@@ -150,7 +93,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -173,142 +116,114 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Eury’s Explorations with LLMs</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">correct grammar customGPT</h1>
+                  <div>
+        <div class="description">
+          playing with how customGPT enhance my grammar in different settings
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">LLMs</div>
+                <div class="quarto-category">Prompting</div>
+                <div class="quarto-category">Language</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Eury </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 10, 2025</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TGFuZ3VhZ2U=">Language <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TExNcw==">LLMs <span class="quarto-category-count">(3)</span></div><div class="category" data-category="bG9naWM=">logic <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJvbXB0aW5n">Prompting <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cHJvbXB0aW5n">prompting <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<blockquote class="blockquote">
+<p>As an international student whose first language is not English (Korean), I realize that whenever I write a manuscript or an important email, LLMs’ grammar correction has been incredibly helpful. I am not letting an LLM write my work; rather, I use it to correct my grammar so that my style and tone remain intact while my writing becomes clearer. I also appreciate how an LLM shows the reasoning behind my grammatical errors, so that I am not simply hard-coding corrections each time but instead enhancing my mental model of the language.</p>
+</blockquote>
+<p><img src="llm_screen.png" width="80%"></p>
+<ol type="1">
+<li>Instruction</li>
+</ol>
+<p>👉 This GPT reviews user-provided text with a strict, detail-oriented approach. It corrects grammar, spelling, punctuation, capitalization, word choice, and structure comprehensively, leaving no errors unaddressed. Alongside each correction, it provides reasoning using proper grammar terminology (e.g., subject-verb agreement, misplaced modifier, parallel structure) so users can learn technical concepts clearly. Corrections and explanations are typically presented in bullet points for clarity and easy reading. It also provides side-by-side ‘before and after’ versions of the text: in the ‘before’ version, errors are highlighted in bold, while the ‘after’ version shows the fully corrected, clean text. At the end of its response, it provides a separate section with alternative phrasings (professional, casual, or polished everyday) for easy comparison. It avoids over-simplification, ensuring explanations are precise and accurate. When user intent isn’t fully explicit, it assumes the user wants all errors corrected and explained. Its tone when speaking to users is conversational yet precise—approachable and easy to follow, while still using correct technical terminology. <strong>If you are unsure about the grammar, you can refer to the attached files in the knowledge base</strong></p>
+<ol start="2" type="1">
+<li>Description</li>
+</ol>
+<p>👉 Strict grammar coach with technical explanations</p>
+<ol start="3" type="1">
+<li>Prompt starters</li>
+</ol>
+<ul>
+<li>“Check this sentence and explain the corrections…”</li>
+<li>“Make this paragraph sound more professional.”</li>
+<li>“How would I say this casually to a friend?”</li>
+<li>“Fix the grammar but keep my style.”</li>
+</ul>
+<ol start="4" type="1">
+<li>Welcome message</li>
+</ol>
+<p>👉 Hi! Paste any text you’d like me to check. I’ll correct grammar, explain why, and suggest alternative phrasings in professional or casual tones.</p>
+<ol start="5" type="1">
+<li>Knoweldge-base</li>
+</ol>
+<ul>
+<li>Introduction to Linguistic Theory by Adam Szczegielniak</li>
+<li>100_Most_Common_Grammar_Errors</li>
+</ul>
+<section id="ask---correct---explain---options" class="level3">
+<h3 class="anchored" data-anchor-id="ask---correct---explain---options">Ask -&gt; Correct -&gt; Explain -&gt; Options</h3>
+<p><img src="input.png" width="30%" style="display:inline-block; vertical-align:top; margin-right:10px;"> <img src="explain.png" width="30%" style="display:inline-block; vertical-align:top; margin-right:10px;"> <img src="alter.png" width="30%" style="display:inline-block; vertical-align:top;"></p>
+</section>
+<section id="how-to-decide-which-to-use" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-decide-which-to-use">How to Decide Which to Use</h3>
+<ol type="1">
+<li><p>If you need <strong>efficiency, structure, or raw ideas 👉 Claude 3.5</strong></p></li>
+<li><p>If you need <strong>polish, flow, or persuasive storytelling 👉 GPT-4o</strong></p></li>
+<li><p>Sometimes, the best workflow is <strong>hybrid!</strong> Start with Claude 3.5 to get a structured draft/outline. Feed that into GPT-4o to turn it into a polished narrative.</p></li>
+</ol>
+</section>
+<section id="insight-for-your-future-tasks" class="level3">
+<h3 class="anchored" data-anchor-id="insight-for-your-future-tasks">✨ Insight for Your Future Tasks</h3>
+<p>Since I am a PhD student, I’ll face a mix of analytical tasks and communicative tasks.</p>
+<ul>
+<li><p>For <strong>research synthesis, brainstorming frameworks, and organizing literature, Claude’s</strong> style will save my time.</p></li>
+<li><p>For <strong>grant writing, papers, teaching materials, or public-facing work, GPT-4o’s</strong> fluency will help you connect with my audience.</p></li>
+</ul>
+<p>👉 You might think of them like two tools in your research toolbox:</p>
+<ul>
+<li><p>Claude = bullet-pointed notebook 📝</p></li>
+<li><p>GPT-4o = polished essay draft 📖</p></li>
+</ul>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="TExNcyUyQ1Byb21wdGluZyUyQ0xhbmd1YWdl" data-listing-date-sort="1757462400000" data-listing-file-modified-sort="1757616848846" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="489">
-<div class="thumbnail"><a href="./posts/003_customLLM/customLLMpage.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/003_customLLM/llm_screen.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/003_customLLM/customLLMpage.html" class="no-external">correct grammar customGPT</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UHJvbXB0aW5n'); return false;">Prompting</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGFuZ3VhZ2U='); return false;">Language</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/003_customLLM/customLLMpage.html" class="no-external">
-<p>playing with how customGPT enhance my grammar in different settings</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/003_customLLM/customLLMpage.html" class="no-external">
-<div class="listing-date">
-Sep 10, 2025
-</div>
-<div class="listing-author">
-Eury
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="TExNcyUyQ1Byb21wdGluZw==" data-listing-date-sort="1756857600000" data-listing-file-modified-sort="1757616848838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="424">
-<div class="thumbnail"><a href="./posts/002_LLMcomparison/002_title.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/002_LLMcomparison/gpt1.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/002_LLMcomparison/002_title.html" class="no-external">chat.asc.upenn.edu ver comparison</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UHJvbXB0aW5n'); return false;">Prompting</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/002_LLMcomparison/002_title.html" class="no-external">
-<p>comparing 3.5-haiku vs.&nbsp;gpt4o with the same prompt</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/002_LLMcomparison/002_title.html" class="no-external">
-<div class="listing-date">
-Sep 3, 2025
-</div>
-<div class="listing-author">
-Eury
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="TExNcyUyQ3Byb21wdGluZyUyQ2xvZ2lj" data-listing-date-sort="1706832000000" data-listing-file-modified-sort="1757616848838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="450">
-<div class="thumbnail"><a href="./posts/000_test_post/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/000_test_post/gpt3-5.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/000_test_post/index.html" class="no-external">A test post</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cHJvbXB0aW5n'); return false;">prompting</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bG9naWM='); return false;">logic</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/000_test_post/index.html" class="no-external">
-<p>An example post from a Jupyter notebook</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/000_test_post/index.html" class="no-external">
-<div class="listing-date">
-Feb 2, 2024
-</div>
-<div class="listing-author">
-An LLM User
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
