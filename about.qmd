@@ -5,4 +5,4 @@ about:
   template: jolla
 ---
 
-This blog is about my explorations and experiments of LLMs
+Eury's blog is about my explorations and experiments of LLMs
