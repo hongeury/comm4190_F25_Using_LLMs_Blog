@@ -8,8 +8,7 @@ website:
       - about.qmd
       - icon: github
         href: https://github.com/hongeury
-      - icon: twitter
-        href: https://twitter.com
+
 format:
   html:
     theme: quartz
