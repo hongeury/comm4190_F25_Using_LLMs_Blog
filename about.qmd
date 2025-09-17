@@ -1,6 +1,6 @@
 ---
 title: About
-image: profile.jpg
+image: eury_headshot1.jpg
 about:
   template: jolla
 ---
